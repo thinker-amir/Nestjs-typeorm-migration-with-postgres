@@ -20,7 +20,7 @@ services:
     tty: true
     volumes:
       - ./nestjs:/usr/src/nestjs
-    # command: npm run start:dev
+    command: npm run start:dev
     ports:
       - '3000:3000'
     depends_on:
